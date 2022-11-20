@@ -14,7 +14,6 @@ import algernclothing from "../public/algernclothing.png";
 import algernui from "../public/algernui.png";
 import weebculture from "../public/weebculture.png";
 
-import bitmoji from "../public/bitmoji.png";
 import partha from "../public/partha.jpg";
 import logo from "../public/ps.png";
 

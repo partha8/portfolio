@@ -138,7 +138,7 @@ export default function Home() {
 
         <section className=" min-h-screen ">
           <h2 className="text-5xl text-center font-semibold dark:text-white mb-8 border-b border-b-gray-600 pb-6 ">
-            Side Projects
+            Projects
           </h2>
 
           <div className="flex flex-col gap-10">

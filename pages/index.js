@@ -2,7 +2,6 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
   AiFillGithub,
 } from "react-icons/ai";
 import { SiHashnode } from "react-icons/si";
@@ -25,8 +24,6 @@ import nodejs from "../public/nodejs.png";
 import redux from "../public/redux.png";
 import mongodb from "../public/mongodb.png";
 import tailwindcss from "../public/tailwindcss.png";
-
-import { motion } from "framer-motion";
 
 export default function Home() {
   return (

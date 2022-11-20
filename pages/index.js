@@ -73,7 +73,7 @@ export default function Home() {
           </nav>
 
           <div className="h-[60vh] flex flex-col justify-center items-center">
-            <h3 className="text-xl dark:text-white md:text-2xl">Hello, I'm</h3>
+            <h3 className="text-xl dark:text-white md:text-2xl">Hello, I am</h3>
             <h3 className="text-6xl text-center my-4 text-teal-600 font-medium dark:text-teal-400 md:text-7xl xl:text-8xl">
               Partha Sarma
             </h3>
@@ -106,7 +106,7 @@ export default function Home() {
               <Image src={partha} alt="profile" />
             </div>
             <p className="text-xl text-center py-5 leading-8 text-gray-800 dark:text-gray-200 flex-1">
-              Hi, I'm Partha Pratim Sarma, a{" "}
+              Hi, I am Partha Pratim Sarma, a{" "}
               <span className=" text-teal-500 ">mechanical engineer</span>{" "}
               turned <span className=" text-teal-500 ">frontend developer</span>{" "}
               from India, who just loves building and breaking stuff. I started

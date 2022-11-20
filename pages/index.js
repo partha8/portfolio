@@ -108,9 +108,14 @@ export default function Home() {
               Hi, I am Partha Pratim Sarma, a{" "}
               <span className=" text-teal-500 ">mechanical engineer</span>{" "}
               turned <span className=" text-teal-500 ">frontend developer</span>{" "}
-              from India, who just loves building and breaking stuff. I started
-              with HTML/CSS during the pandemic and never looked back.
+              from India, who just loves building and breaking stuff. I have
+              been creating applications since the beginning of the pandemic,
+              and made countless side projects, and possess magical powers of
+              using react to build delightful user interfaces.
               <br />
+              <br />
+              WWhen I am not coding, you will find me cooking, baking, or
+              sketching!
             </p>
           </div>
         </section>

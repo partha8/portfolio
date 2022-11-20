@@ -96,9 +96,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className=" min-h-screen flex flex-col">
+        <section className=" min-h-screen flex flex-col justify-evenly mb-20">
           <h2 className="text-5xl text-center font-semibold dark:text-white mb-8 border-b border-b-gray-600 pb-6">
-            About me
+            About Me
           </h2>
           <div className=" w-full flex flex-col items-center justify-center">
             <div className="bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden  md:h-80 md:w-80 border-4 ">
@@ -148,7 +148,7 @@ export default function Home() {
                   share your views, follow/unfollow your friends, like/dislike
                   their posts and more!
                 </p>
-                <div>
+                <div className="flex flex-wrap gap-6">
                   <a
                     href="https://seeker-f3c5d.web.app/"
                     target="__blank"
@@ -186,7 +186,7 @@ export default function Home() {
                   Firebase as the backend. Various customisation options are
                   available to better classify your notes!
                 </p>
-                <div>
+                <div className="flex flex-wrap gap-6">
                   <a
                     href="https://melonn-8c85c.web.app/"
                     target="__blank"
@@ -222,7 +222,7 @@ export default function Home() {
                 <p className="text-xl leading-8 text-gray-800 dark:text-gray-200 ">
                   A fun video library for people who love anime!
                 </p>
-                <div>
+                <div className="flex flex-wrap gap-6">
                   <a
                     href="https://weeb-culture.netlify.app/"
                     target="__blank"
@@ -261,7 +261,7 @@ export default function Home() {
                   typography system. User can utilise this library to build
                   their projects without any difficulties.
                 </p>
-                <div>
+                <div className="flex flex-wrap gap-6">
                   <a
                     href="https://algernui.netlify.app/"
                     target="__blank"
@@ -298,7 +298,7 @@ export default function Home() {
                   Algern Clothing is an e-commerce platform that focuses on
                   stylish and luxury clothing.
                 </p>
-                <div>
+                <div className="flex flex-wrap gap-6">
                   <a
                     href="https://algern-clothing-react.netlify.app/"
                     target="__blank"

@@ -114,7 +114,7 @@ export default function Home() {
               using react to build delightful user interfaces.
               <br />
               <br />
-              WWhen I am not coding, you will find me cooking, baking, or
+              When I am not coding, you will find me cooking, baking, or
               sketching!
             </p>
           </div>

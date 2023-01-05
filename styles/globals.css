@@ -61,7 +61,7 @@ a {
   stroke: #111827;
 
   stroke-linecap: round;
-  animation: dash 6s linear infinite;
+  animation: dash 4s linear infinite;
 }
 
 @keyframes dash {

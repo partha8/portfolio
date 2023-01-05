@@ -28,7 +28,7 @@ export const Introduction = () => {
       initial="hidden"
       animate={control}
       variants={list}
-      className="h-[90vh] flex flex-col m-auto justify-center items-center"
+      className="h-[70vh] flex flex-col m-auto justify-center items-center mb-20"
     >
       <motion.h3
         variants={item}

@@ -57,7 +57,7 @@ export default function Home() {
           >
             <motion.nav
               variants={item}
-              className="pt-10 flex justify-between items-center dark:text-white"
+              className="pt-10 mb-10 sm:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 flex justify-between items-center dark:text-white"
             >
               <motion.div>
                 <Image alt="logo" width={80} height={80} src={logo} />

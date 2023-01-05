@@ -48,13 +48,13 @@ a {
 }
 
 .circle__item {
-  width: 260px;
-  height: 260px;
+  width: 230px;
+  height: 230px;
 }
 
 .circle__spinner {
-  width: 260px;
-  height: 260px;
+  width: 230px;
+  height: 230px;
 }
 
 .circle__spinner .path {

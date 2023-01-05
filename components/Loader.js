@@ -6,7 +6,7 @@ export const Loader = () => {
   return (
     <div className="h-[100vh] bg-[#111827] flex items-center justify-center">
       <section className="relative flex items-center justify-center">
-        <Image alt="logo" width={250} src={logo} />
+        <Image alt="logo" width={200} src={logo} />
 
         <div class="circle">
           <div class="circle__item">
@@ -15,7 +15,7 @@ export const Loader = () => {
                 class="path"
                 cx="25"
                 cy="25"
-                r="23"
+                r="21"
                 fill="none"
                 stroke="#93bfec"
                 stroke-width="11"

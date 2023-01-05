@@ -25,7 +25,7 @@ export const Projects = () => {
       // animate="visible"
       animate={control}
       variants={list}
-      className=" min-h-screen snap-start"
+      className=" min-h-screen snap-start mb-20"
     >
       <motion.h2
         variants={item}

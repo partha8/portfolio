@@ -32,7 +32,7 @@ export const Skills = () => {
       initial="hidden"
       animate={control}
       variants={list}
-      className="h-[50vh] snap-center  "
+      className="snap-center mb-20"
     >
       <motion.h2
         variants={item}

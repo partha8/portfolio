@@ -61,7 +61,34 @@ a {
   stroke: #111827;
 
   stroke-linecap: round;
-  animation: dash 4s linear infinite;
+  animation: dash 4s linear forwards;
+  /* animation-delay: 2s; */
+}
+
+.logo {
+  animation: logo 5s ease-out forwards;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes dash {
@@ -73,5 +100,6 @@ a {
   100% {
     stroke-dasharray: 0, 180;
     stroke-dashoffset: 10;
+    /* stroke: none; */
   }
 }

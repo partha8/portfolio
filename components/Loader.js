@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Loader = () => {
   return (
     <div className="h-[100vh] bg-[#111827] flex items-center justify-center">
-      <section className="relative flex items-center justify-center">
+      <section className=" logo logo-fade relative flex items-center justify-center">
         <Image alt="logo" width={200} src={logo} />
 
         <div class="circle">

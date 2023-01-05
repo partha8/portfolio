@@ -4,6 +4,7 @@
 
 html,
 body {
+  background-color: #111827;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -31,12 +32,46 @@ a {
 
 ::-webkit-scrollbar-track {
   background-color: #111827;
-  /* -webkit-border-radius: 1px;
-  border-radius: 1px; */
 }
 
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #2DD4BF;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.circle__item {
+  width: 260px;
+  height: 260px;
+}
+
+.circle__spinner {
+  width: 260px;
+  height: 260px;
+}
+
+.circle__spinner .path {
+  stroke: #111827;
+
+  stroke-linecap: round;
+  animation: dash 6s linear infinite;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 180, 180;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 0, 180;
+    stroke-dashoffset: 10;
+  }
 }

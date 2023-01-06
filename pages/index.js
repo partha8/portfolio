@@ -64,7 +64,7 @@ export default function Home() {
               </motion.div>
               <motion.a
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 h-fit w-fit"
-                href="https://drive.google.com/file/d/1TJa9pp85Yh5xylkWdCfyrYsG2ztjCSMP/view?usp=sharing"
+                href="https://drive.google.com/file/d/199rBjdnITFj19UnWaFutrzPEytCCXlzv/view?usp=sharing"
                 target="__blank"
               >
                 Resume

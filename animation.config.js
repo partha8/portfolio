@@ -9,9 +9,9 @@ export const list = {
   },
   hidden: {
     opacity: 0,
-    // transition: {
-    //   when: "afterChildren",
-    // },
+    transition: {
+      when: "beforeChildren",
+    },
   },
 };
 

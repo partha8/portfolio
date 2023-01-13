@@ -8,11 +8,11 @@ export const Loader = () => {
       <section className=" logo logo-fade relative flex items-center justify-center">
         <Image alt="logo" width={200} src={logo} />
 
-        <div class="circle">
-          <div class="circle__item">
-            <svg class="circle__spinner" viewBox="0 0 50 50">
+        <div className="circle">
+          <div className="circle__item">
+            <svg className="circle__spinner" viewBox="0 0 50 50">
               <circle
-                class="path"
+                className="path"
                 cx="25"
                 cy="25"
                 r="21"

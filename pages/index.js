@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 
 //images, pngs
 import logo from "../public/ps.png";
@@ -44,6 +45,20 @@ export default function Home() {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-Z58JEV4KZT"
+      ></Script>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-Z58JEV4KZT');
+        `}
+      </Script>
 
       {loader ? (
         <Loader />
